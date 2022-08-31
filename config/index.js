@@ -12,10 +12,10 @@ export const config = {
 ",
 
     // 模板消息id
-    TEMPLATE_ID: "给宝贝龚雨的每日推送",
+    TEMPLATE_ID: "4ZhkxgA7I1NvxPA5JoRtxAs5eT6zJPIiaKpgPdsb7LE",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "给宝贝龚雨的每日推送",
+    CALLBACK_TEMPLATE_ID: "4ZhkxgA7I1NvxPA5JoRtxAs5eT6zJPIiaKpgPdsb7LE",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
