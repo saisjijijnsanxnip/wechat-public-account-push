@@ -62,7 +62,7 @@ export const config = {
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -79,10 +79,7 @@ export const config = {
 "
     LITERARY_PREFERENCE: "今天又是元气满满的一天呐[庆祝]，亲爱的宝贝龚雨每天都要开开心心[爱心][爱心]，不管遇到什么烦心事，都不要放在心上，要永远记得，学会做情绪的管理者不要被情绪控制，这样才能每天开开心心[烟花]，无论我在不在你的身边，宝贝都要相信，张赛最爱你[嘿哈][玫瑰]
 "
-
-
     }
-
 // {{date.DATA}}  
 // 城市：{{city.DATA}}  
 // 天气：{{weather.DATA}}  
@@ -91,10 +88,8 @@ export const config = {
 // 今天是我们恋爱的第{{love_day.DATA}}天
 // 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
-
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
-
 // 共推送 {{need_post_num.DATA}}  人
 // 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
 // 成功用户: {{success_post_ids.DATA}}
