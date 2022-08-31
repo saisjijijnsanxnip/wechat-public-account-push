@@ -4,35 +4,37 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wxcaae6b68c36e9ede
+",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "1af79442b5a3df81be7571e7265f58a9
+",
 
     // 模板消息id
-    TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    TEMPLATE_ID: "给宝贝龚雨的每日推送",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    CALLBACK_TEMPLATE_ID: "给宝贝龚雨的每日推送",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
-    //   name: "张三",
-    //   id: "wxafasdasdd-zxfvsdfd"
+    //   name: "龚雨",
+    //   id: "ombMm6tJhjWX6-XOVAfdGsEN9rXw"
     // },
     // {
-    //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
+    //   name: "张赛",
+    //   id: "ombMm6uEY_siJkmbg-YicD_qGVBk"
     // }]
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      {name: '宝贝龚雨', id: "ombMm6tJhjWX6-XOVAfdGsEN9rXw"}, 
+      {name: '张赛', id: "ombMm6uEY_siJkmbg-YicD_qGVBk"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "ombMm6uEY_siJkmbg-YicD_qGVBk"}, 
     ],
      
     /**
@@ -42,9 +44,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "江苏",
     // 所在城市
-    CITY: "惠州",
+    CITY: "沭阳",
 
     /** 重要节日相关 */
 
@@ -53,8 +55,8 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
+      {"type": "生日", "name": "宝贝龚雨", "year": "2000", "date": "08-02"},
+      {"type": "节日", "name": "在一起纪念日", "year": "2021", "date": "07-01"},
       {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
     ],
@@ -66,7 +68,7 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2015-05-01",
+    LOVE_DATE: "2021-07-01",
     // 结婚纪念日
     MARRY_DATE: "2020-01-04",
 
@@ -74,8 +76,10 @@ export const config = {
     /** 每日一言 */
 
     // 好文节选的内容类型
-    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "今天又是元气满满的一天呐[庆祝][庆祝]，亲爱的宝贝龚雨每天都要开开心心[爱心][爱心]，不管遇到什么烦心事，都不要放在心上，要永远记得，学会做情绪的管理者不要被情绪控制，这样才能每天开开心心[烟花]，无论我在不在你的身边，宝贝都要相信，张赛最爱你[嘿哈][玫瑰]
+"
+    LITERARY_PREFERENCE: "今天又是元气满满的一天呐[庆祝][庆祝]，亲爱的宝贝龚雨每天都要开开心心[爱心][爱心]，不管遇到什么烦心事，都不要放在心上，要永远记得，学会做情绪的管理者不要被情绪控制，这样才能每天开开心心[烟花]，无论我在不在你的身边，宝贝都要相信，张赛最爱你[嘿哈][玫瑰]
+"
 
 
     }
